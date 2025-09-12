@@ -24,8 +24,8 @@ jobs:
         with:
           path: ~/.npm # dónde guarda dependencias npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: | 
-          ${{ runner.os }}-node-
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Instalar dependencias
         run: npm install
