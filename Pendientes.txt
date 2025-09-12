@@ -1,0 +1,17 @@
+Buenas practicas 
++Generar reporte de testing con jest --coverage
+-Integrar reporte con codecov o coveralls
+
+-Cache de dependencias, para evita reinstalar dependencias en cada build
+
+
+Seguridad
+-Scan de vulnerabilidades con npm audit en el yml 
+
+Docker y despliegue 
+-Multi-stage builds en Docker, reducir el tamaño de la imagen
+-Tag dinamico de imagenes, agrega el SHA o versión
+
+Entornos empresariales
+-Deploy en un servidor (EC2, VPS) o Kubernetes o Heroku, Render, Railway, AWS ECS
+-Ambientes separados
