@@ -30,6 +30,9 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
+      - name: Scan de vulnerabilidades
+        run: npm audit --audit-level=high
+
       - name: Correr pruebas
         run: npm test
 
